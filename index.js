@@ -36,6 +36,7 @@ run().catch(console.dir())
 
 app.get('/',async(req,res)=>{
     console.log("Running Fashion House Server!!");
+    res.send("This is Fashion House Server hmmmm!!")
 })
 
 
